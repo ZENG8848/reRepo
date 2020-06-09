@@ -16,6 +16,24 @@ namespace reCruit
             // 在应用程序启动时运行的代码
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            
+            Application["total"] = 0;
+            Application["online"] = 0;
+        }
+
+        void Session_Start(object sender, EventArgs e)
+        {
+            Application.Lock();
+            Application["total"] = (int)Application["total"] + 1;
+            Application["online"] = (int)Application["online"] + 1;
+            Application.UnLock();
+        }
+
+        void Session_End(object sender, EventArgs e)
+        {
+            Application.Lock();
+            Application["online"] = (int)Application["online"] - 1;
+            Application.UnLock();
         }
     }
 }
