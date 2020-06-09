@@ -11,7 +11,7 @@ namespace reCruit.Center
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label1.Text = "Welcome"+ Session ["userName"] +" to the User Center!";
         }
     }
 }
