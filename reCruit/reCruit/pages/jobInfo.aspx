@@ -10,6 +10,27 @@
 <body>
     <form id="form1" runat="server">
         <div>
+
+            <asp:GridView ID="GridView1" runat="server">
+            </asp:GridView>
+            <br />
+
+        </div>
+        <div>
+            工作ID<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            职位<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
+            薪资<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+            <br />
+            要求<asp:TextBox ID="TextBox4" runat="server" TextMode="MultiLine"></asp:TextBox>
+            <br />
+            地点<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+            <br />
+            时间<asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" Text="Button" />
         </div>
     </form>
 </body>
