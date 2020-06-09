@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace reCruit
+namespace reCruit.pages
 {
 
 
-    public partial class WebForm1
+    public partial class jobInfo
     {
 
         /// <summary>
