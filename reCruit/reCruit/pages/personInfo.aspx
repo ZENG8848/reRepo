@@ -42,13 +42,13 @@
             简历信息</p>
         <div class="auto-style2">
            <center> <table><tr>
-            <td>&nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="300px" ImageUrl="~/image/我的简历.png" OnClick="ImageButton1_Click" Width="300px" />
+            <td>&nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="300px" ImageUrl="~/image/我的简历.png" OnClick="ImageButton1_Click" Width="330px" />
 </td>
-            <td>&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="301px" ImageUrl="~/image/招聘申请.png" OnClick="ImageButton2_Click" Width="300px" />
+            <td>&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="301px" ImageUrl="~/image/招聘申请.png" OnClick="ImageButton2_Click" Width="330px" />
 </td>
-            <td>&nbsp;<asp:ImageButton ID="ImageButton3" runat="server" Height="300px" ImageUrl="~/image/已投递简历.png" OnClick="ImageButton3_Click" Width="300px" />
+            <td>&nbsp;<asp:ImageButton ID="ImageButton3" runat="server" Height="300px" ImageUrl="~/image/已投递简历.png" OnClick="ImageButton3_Click" Width="330px" />
 </td>
-            <td >&nbsp;<asp:ImageButton ID="ImageButton4" runat="server" Height="301px" ImageUrl="~/image/招聘结果公示.png" OnClick="ImageButton4_Click" Width="300px" />
+            <td >&nbsp;<asp:ImageButton ID="ImageButton4" runat="server" Height="301px" ImageUrl="~/image/招聘结果公示.png" OnClick="ImageButton4_Click" Width="330px" />
 </td>
             </tr></table></center>
         </div>

@@ -106,8 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Center\adminInfo.aspx" />
-    <Content Include="Center\personInfo.aspx" />
+    <Content Include="pages\adminInfo.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -135,6 +134,7 @@
     <Content Include="image\查看.png" />
     <Content Include="pages\homePage.aspx" />
     <Content Include="pages\jobInfo.aspx" />
+    <Content Include="pages\personInfo.aspx" />
     <Content Include="pages\recuitinfo.aspx" />
     <Content Include="pages\showInfo.aspx" />
     <Content Include="pages\signUp.aspx" />
@@ -182,19 +182,12 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Center\adminInfo.aspx.cs">
+    <Compile Include="pages\adminInfo.aspx.cs">
       <DependentUpon>adminInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Center\adminInfo.aspx.designer.cs">
+    <Compile Include="pages\adminInfo.aspx.designer.cs">
       <DependentUpon>adminInfo.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Center\personInfo.aspx.cs">
-      <DependentUpon>personInfo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Center\personInfo.aspx.designer.cs">
-      <DependentUpon>personInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -226,6 +219,13 @@
     </Compile>
     <Compile Include="pages\jobInfo.aspx.designer.cs">
       <DependentUpon>jobInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\personInfo.aspx.cs">
+      <DependentUpon>personInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\personInfo.aspx.designer.cs">
+      <DependentUpon>personInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\recuitinfo.aspx.cs">
       <DependentUpon>recuitinfo.aspx</DependentUpon>
