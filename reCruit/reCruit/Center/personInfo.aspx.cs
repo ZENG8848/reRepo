@@ -13,5 +13,25 @@ namespace reCruit.Center
         {
             Label1.Text = "Welcome"+ Session ["userName"] +" to the User Center!";
         }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("cvIfno.aspx");
+        }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("recuit.aspx");
+        }
+
+        protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("applyInfo.aspx");
+        }
+
+        protected void ImageButton4_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("showInfo.aspx");
+        }
     }
 }
