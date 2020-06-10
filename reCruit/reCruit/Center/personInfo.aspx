@@ -15,7 +15,12 @@
         }
         body {background-color: antiquewhite } 
         .auto-style3 {
-            text-align: left;
+            text-align: center;
+            font-size: large;
+        }
+        .auto-style4 {
+            text-align: center;
+            font-size: medium;
         }
     </style>
 </head>
@@ -37,21 +42,22 @@
             简历信息</p>
         <div class="auto-style2">
            <center> <table><tr>
-            <td><asp:ImageButton ID="ImageButton1" runat="server" Height="300px" ImageUrl="~/image/我的简历.png" OnClick="ImageButton1_Click" Width="300px" />
-&nbsp;</td>
-            <td><asp:ImageButton ID="ImageButton2" runat="server" Height="301px" ImageUrl="~/image/招聘申请.png" OnClick="ImageButton2_Click" Width="300px" />
-&nbsp;</td>
-            <td><asp:ImageButton ID="ImageButton3" runat="server" Height="300px" ImageUrl="~/image/已投递简历.png" OnClick="ImageButton3_Click" Width="300px" />
-&nbsp;</td>
-            <td class="auto-style3"><asp:ImageButton ID="ImageButton4" runat="server" Height="301px" ImageUrl="~/image/招聘结果公示.png" OnClick="ImageButton4_Click" Width="300px" /></td>
+            <td>&nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="300px" ImageUrl="~/image/我的简历.png" OnClick="ImageButton1_Click" Width="300px" />
+</td>
+            <td>&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="301px" ImageUrl="~/image/招聘申请.png" OnClick="ImageButton2_Click" Width="300px" />
+</td>
+            <td>&nbsp;<asp:ImageButton ID="ImageButton3" runat="server" Height="300px" ImageUrl="~/image/已投递简历.png" OnClick="ImageButton3_Click" Width="300px" />
+</td>
+            <td >&nbsp;<asp:ImageButton ID="ImageButton4" runat="server" Height="301px" ImageUrl="~/image/招聘结果公示.png" OnClick="ImageButton4_Click" Width="300px" />
+</td>
             </tr></table></center>
         </div>
     </form>
     <p>
         &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p class="auto-style2">
+    <p class="auto-style3">
+        <strong>We sincerely look forward to your joining.</strong></p>
+    <p class="auto-style4">
         <strong style="color: #454141">BUPT Career.</strong></p>
 </body>
 </html>
