@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="signUp.aspx.cs" Inherits="reCruit.pages.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="recuitinfo.aspx.cs" Inherits="reCruit.pages.recuitinfo" %>
 
 <!DOCTYPE html>
 

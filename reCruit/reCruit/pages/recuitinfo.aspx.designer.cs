@@ -10,7 +10,7 @@
 namespace reCruit.pages {
     
     
-    public partial class WebForm2 {
+    public partial class recuitinfo {
         
         /// <summary>
         /// form1 控件。
