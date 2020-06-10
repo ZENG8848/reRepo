@@ -36,7 +36,7 @@
             <asp:Button ID="Button3" runat="server" Text="删除" />
             <asp:Button ID="Button4" runat="server" Text="增加" />
             <br />
-            123</div>
+            </div>
     </form>
 </body>
 </html>
