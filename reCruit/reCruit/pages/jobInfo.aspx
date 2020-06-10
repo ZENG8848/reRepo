@@ -14,6 +14,7 @@
             <asp:GridView ID="GridView1" runat="server">
             </asp:GridView>
             <br />
+            <br />
 
         </div>
         <div>
@@ -30,8 +31,12 @@
             时间<asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Button" />
-        </div>
+            <asp:Button ID="Button1" runat="server" Text="查询" />
+            <asp:Button ID="Button2" runat="server" Text="修改" />
+            <asp:Button ID="Button3" runat="server" Text="删除" />
+            <asp:Button ID="Button4" runat="server" Text="增加" />
+            <br />
+            123</div>
     </form>
 </body>
 </html>
