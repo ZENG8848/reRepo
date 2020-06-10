@@ -128,6 +128,10 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="image\发布.png" />
+    <Content Include="image\已投递简历.png" />
+    <Content Include="image\我的简历.png" />
+    <Content Include="image\招聘申请.png" />
+    <Content Include="image\招聘结果公示.png" />
     <Content Include="image\查看.png" />
     <Content Include="pages\homePage.aspx" />
     <Content Include="pages\jobInfo.aspx" />
