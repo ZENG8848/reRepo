@@ -35,7 +35,10 @@
             </strong>
         </div>
         <p>
-            这里显示用户简历信息</p>
+            <strong>User</strong> <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+&nbsp; 
+            <asp:Button ID="Button1" runat="server" BackColor="Black" ForeColor="White" OnClick="Button1_Click" Text="Change user information" />
+        </p>
         <p>
             基本信息</p>
         <p>
@@ -56,7 +59,7 @@
     <p>
         &nbsp;</p>
     <p class="auto-style3">
-        <strong>We sincerely look forward to your joining.</strong></p>
+        <strong>We sincerely looking forward to your joining.</strong></p>
     <p class="auto-style4">
         <strong style="color: #454141">BUPT Career.</strong></p>
 </body>

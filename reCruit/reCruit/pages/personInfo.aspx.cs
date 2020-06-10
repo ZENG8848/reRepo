@@ -11,7 +11,8 @@ namespace reCruit.Center
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = "Welcome"+ Session ["userName"] +" to the User Center!";
+            Label1.Text = "Welcome to the User Center!";
+            //Label2.Text = Session["userName"];
         }
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
@@ -32,6 +33,11 @@ namespace reCruit.Center
         protected void ImageButton4_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("showInfo.aspx");
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userControl.aspx");
         }
     }
 }
