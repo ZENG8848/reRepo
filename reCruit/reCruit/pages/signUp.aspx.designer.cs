@@ -7,13 +7,11 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace reCruit.pages
-{
-
-
-    public partial class WebForm2
-    {
-
+namespace reCruit.pages {
+    
+    
+    public partial class WebForm2 {
+        
         /// <summary>
         /// form1 控件。
         /// </summary>

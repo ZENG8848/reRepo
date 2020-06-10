@@ -131,6 +131,7 @@
     <Content Include="image\查看.png" />
     <Content Include="pages\homePage.aspx" />
     <Content Include="pages\jobInfo.aspx" />
+    <Content Include="pages\sign.aspx" />
     <Content Include="pages\signUp.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -220,6 +221,13 @@
     </Compile>
     <Compile Include="pages\jobInfo.aspx.designer.cs">
       <DependentUpon>jobInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\sign.aspx.cs">
+      <DependentUpon>sign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\sign.aspx.designer.cs">
+      <DependentUpon>sign.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\signUp.aspx.cs">
       <DependentUpon>signUp.aspx</DependentUpon>
