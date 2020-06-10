@@ -40,7 +40,7 @@
             <asp:Button ID="Button1" runat="server" BackColor="Black" ForeColor="White" OnClick="Button1_Click" Text="Change user information" />
         </p>
         <p>
-            基本信息</p>
+            基本信息information</p>
         <p>
             简历信息</p>
         <div class="auto-style2">
