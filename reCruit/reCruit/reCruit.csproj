@@ -136,6 +136,7 @@
     <Content Include="pages\homePage.aspx" />
     <Content Include="pages\jobInfo.aspx" />
     <Content Include="pages\recuitinfo.aspx" />
+    <Content Include="pages\showInfo.aspx" />
     <Content Include="pages\signUp.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -232,6 +233,13 @@
     </Compile>
     <Compile Include="pages\recuitinfo.aspx.designer.cs">
       <DependentUpon>recuitinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\showInfo.aspx.cs">
+      <DependentUpon>showInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\showInfo.aspx.designer.cs">
+      <DependentUpon>showInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\signUp.aspx.cs">
       <DependentUpon>signUp.aspx</DependentUpon>
