@@ -42,7 +42,7 @@
                 <SortedDescendingCellStyle BackColor="#EAEAD3" />
                 <SortedDescendingHeaderStyle BackColor="#575357" />
             </asp:GridView>
-            <br />
+            &nbsp;<br />
             </strong>
         </div>
     </form>
