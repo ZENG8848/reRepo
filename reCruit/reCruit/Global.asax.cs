@@ -24,15 +24,15 @@ namespace reCruit
         void Session_Start(object sender, EventArgs e)
         {
             Application.Lock();
-            Application["total"] = (int)Application["total"] + 1;
-            Application["online"] = (int)Application["online"] + 1;
+            Application["total"] = (int)Application["total"] + 1;//总人数增加
+            Application["online"] = (int)Application["online"] + 1;//在线人数增加
             Application.UnLock();
         }
 
         void Session_End(object sender, EventArgs e)
         {
             Application.Lock();
-            Application["online"] = (int)Application["online"] - 1;
+            Application["online"] = (int)Application["online"] - 1;//总人数不变，在线人数减少
             Application.UnLock();
         }
     }
