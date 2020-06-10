@@ -7,11 +7,18 @@ using System.Web.UI.WebControls;
 
 namespace reCruit.pages
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class signUp : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+
+        protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            if (args.Value.Length >= 6)
+                args.IsValid = true;
+            else args.IsValid = false;
+        }
     }
-}
+    }
