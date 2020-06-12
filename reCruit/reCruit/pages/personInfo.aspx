@@ -38,6 +38,7 @@
             <strong>User</strong> <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
 &nbsp; 
             <asp:Button ID="Button1" runat="server" BackColor="Black" ForeColor="White" OnClick="Button1_Click" Text="Change user information" />
+        &nbsp;<asp:Button ID="Button2" runat="server" BackColor="Black" ForeColor="White" OnClick="Button1_Click" Text="Sign out" />
         </p>
         <p>
             基本信息information</p>

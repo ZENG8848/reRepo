@@ -17,8 +17,8 @@ namespace reCruit
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             
-            Application["total"] = 0;
-            Application["online"] = 0;
+            Application["total"] = 0; //总人数初始为0
+            Application["online"] = 0;//在线人数初始为0
         }
 
         void Session_Start(object sender, EventArgs e)

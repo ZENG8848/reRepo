@@ -20,5 +20,15 @@ namespace reCruit.pages
                 args.IsValid = true;
             else args.IsValid = false;
         }
+
+        protected void txtname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }

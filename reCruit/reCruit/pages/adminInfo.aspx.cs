@@ -11,19 +11,19 @@ namespace reCruit.Center
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = "Welcome to the Admin Center!";
-            Label2.Text = Application["total"] + " ";
-            Label3.Text = Application["online"] + " ";
+            Label1.Text = "Welcome to the Admin Center!";//欢迎来到管理员中心
+            Label2.Text = Application["total"] + " ";//显示总上站人数
+            Label3.Text = Application["online"] + " ";//显示当前在线人数
         }
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("jobInfo.aspx");
+            Response.Redirect("jobInfo.aspx");//跳转到岗位发布页面
         }
 
         protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("recuitInfo.aspx");
+            Response.Redirect("recuitInfo.aspx");//跳转到简历查看页面
         }
     }
 }
